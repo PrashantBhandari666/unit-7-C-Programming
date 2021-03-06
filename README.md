@@ -104,7 +104,7 @@ Example:
 #include <conio.h>
 void linearsearch(const int *arr,int n,int key)
 {
-	// This function performs linear search on given array.
+    // This function performs linear search on given array.
     int i, found=0;
     printf("*********[SEARCH RESULT]*********\n");
     for(i=0;i<n;i++)
@@ -117,11 +117,11 @@ void linearsearch(const int *arr,int n,int key)
     }
     if(found==0)
     {
-    	printf("Not found\n\n");
+        printf("Not found\n\n");
     }
     else
     {
-	printf("%d is present %d times in the array.\n\n",key,found);
+        printf("%d is present %d times in the array.\n\n",key,found);
     }
 }
 int main()
