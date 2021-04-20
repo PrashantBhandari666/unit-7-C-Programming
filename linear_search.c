@@ -14,7 +14,7 @@ void linearsearch(const int *arr,int n,int key)
         }
     }
     if(found==0)
-	{
+    {
         printf("Not found\n\n");
     }
     else
