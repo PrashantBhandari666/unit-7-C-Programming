@@ -19,7 +19,7 @@ void linearsearch(const int *arr,int n,int key)
     }
     else
     {
-		printf("%d is present %d times in the array.\n\n",key,found);
+	printf("%d is present %d times in the array.\n\n",key,found);
     }
 }
 int main()
